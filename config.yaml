@@ -20,6 +20,7 @@ monitors:
     url: 'https://bossku.cn'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   # - id: workers-cloudflare-com # unique identifier
   #   name: workers.cloudflare.com
