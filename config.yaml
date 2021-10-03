@@ -20,8 +20,21 @@ monitors:
     url: 'https://bossku.cn'
     method: GET
     expectStatus: 200
-    followRedirect: true
+    followRedirect: false
 
+  - id: blog on dc8
+    name: Blog On dc8
+    url: 'https://jiapan.me'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: blog on qiniu
+    name: Blog On qiniu
+    url: 'https://jpanj.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
   # - id: workers-cloudflare-com # unique identifier
   #   name: workers.cloudflare.com
   #   description: 'You write code. They handle the rest.' # default=empty
