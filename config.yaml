@@ -22,16 +22,23 @@ monitors:
     expectStatus: 200
     followRedirect: false
 
-  - id: blog on dc8
+  - id: blog-on-dc8
     name: Blog On dc8
     url: 'https://jiapan.me'
     method: GET
     expectStatus: 200
     followRedirect: false
 
-  - id: blog on qiniu
+  - id: blog-on-qiniu
     name: Blog On qiniu
     url: 'https://jpanj.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: onemiss
+    name: Onemiss
+    url: 'https://onemiss.me'
     method: GET
     expectStatus: 200
     followRedirect: false
