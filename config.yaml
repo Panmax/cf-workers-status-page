@@ -34,7 +34,7 @@ monitors:
     url: 'https://jpanj.com'
     method: GET
     expectStatus: 200
-    followRedirect: false
+    followRedirect: true
 
   - id: onemiss
     name: Onemiss
